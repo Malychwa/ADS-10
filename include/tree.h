@@ -52,8 +52,8 @@ class Tree {
       Permut(root->child[i], s);
     }
   }
- public:
 
+ public:
   std::string operator[](int i) const {
     return list[i];
   }
